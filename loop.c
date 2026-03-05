@@ -1,7 +1,9 @@
 #include <stdio.h>
 int main(void){
   int entry;
-  for (int i=1; i<40; i++){
+  printf("Please enter an integer: ");
+  scanf("%d", &entry);
+  for (int i=1; i<entry; i++){
     for (int j=1; j<=i && i%2==1; j++){
       printf("*");
     }
