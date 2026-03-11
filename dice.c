@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 int main(void){
+  srand(time(NULL));
   int f1=0;
   int f2=0;
   int f3=0;
