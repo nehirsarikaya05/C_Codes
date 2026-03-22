@@ -18,6 +18,10 @@ int main(void){
     ++freq[arr[j]];
   }
   for (size_t k=1; k<FREQ; k++){
-    printf("%zu\t%d\n", k, freq[k]);
+    printf("%zu\t%d", k, freq[k]);
+    for (size_t q=1; q<=freq[k]; q++){
+      printf("%s", "*");
+    }
+    printf("\n");
   }
 }
