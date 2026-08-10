@@ -1,4 +1,3 @@
-````md
 # C Codes
 
 A collection of C programming exercises, algorithms, data structures, and small projects created throughout my programming journey.
@@ -220,5 +219,3 @@ This repository documents my journey learning C programming, from basic exercise
 
 GitHub: https://github.com/nehirsarikaya05
 
-```
-```
